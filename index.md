@@ -1,41 +1,24 @@
-#WDG Action Library for Datacap Applications
-##Introduction Welcome to Datacap WDG integration on GitHub Pages
+<h1>WDG Action Library for Datacap Applications</h1>
+
+<h2>Introduction Welcome to Datacap WDG integration on GitHub Pages</h2>
 With this integration, my purpose was to demonstrate how Datacap can call WDG REST API in a datacap application. 
 
-As a use case, lets assume Datacap classified and extracted all the required data to be sent to IBM WDG Bot.
+### UseCase Description
+Lets assume Datacap classified and extracted all the required data from the pages processed, and in the export step, the export csv file will be produced and an RPA Bot will be triggered by Datacap with an input of the exported txt file.
 
-You can use the [editor on GitHub](https://github.com/alihancer/Hancer-WDG/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+###Deployment of Action Library to Datacap
+Copy the dll file provided under the deployment folder to RRS folder under the Datacap installation which is generally C:/Datacap
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+###Configure/use of action
+1. Open your Datacap application with Datacap Studio
+2. Create a ruleset/Rule/Function in your ruleset list
+3. Assign your rule to the related DCO object which in our sample, it can be batch level.
+3. Add the provided action to your function with the related RPA parameters.
 
-### Markdown
+I provided a sample screenshot how the parameters should look like but again this varies based on your input variable name in the WDG bot and also your bot name and server settings. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+PS:Dont forget to put '/' at the end of the server name and the scripts text as shown in screenshot. 
 
-```markdown
-Syntax highlighted code block
+Enjoy the integration and feel free to reach out to me for any suggestions and comments.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alihancer/Hancer-WDG/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Muhammet Ali Hancer
