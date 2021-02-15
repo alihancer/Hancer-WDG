@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+#WDG Action Library for Datacap Applications
+##Introduction Welcome to Datacap WDG integration on GitHub Pages
+With this integration, my purpose was to demonstrate how Datacap can call WDG REST API in a datacap application. 
+
+As a use case, lets assume Datacap classified and extracted all the required data to be sent to IBM WDG Bot.
 
 You can use the [editor on GitHub](https://github.com/alihancer/Hancer-WDG/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
