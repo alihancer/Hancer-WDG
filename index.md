@@ -18,6 +18,8 @@ Copy the dll file provided under the deployment folder to RRS folder under the D
 I provided a sample screenshot how the parameters should look like but again this varies based on your input variable name in the WDG bot and also your bot name and server settings. 
 
 PS:Dont forget to put '/' at the end of the server name and the scripts text as shown in screenshot. 
+<br/>
+![Sample Screenshot](https://github.com/alihancer/Hancer-WDG/blob/main/WDGIntegration%20Action%20Library/Deployment/DStudio%20ActionScreenhotCapture.PNG)
 
 Enjoy the integration and feel free to reach out to me for any suggestions and comments.
 
