@@ -11,4 +11,4 @@ boolean unLockMachine=False<br/>
 string WDGinputParameters=InputText=+@STRING(C:\\Datacap\\PolicyAppDev\\Export\\)+@B.ID+@STRING(.txt)<br/>
 
 Screenshot:
-![alt text](./DStudioActionScreenhotCapture.PNG?raw=true)
+![alt text](./DStudio ActionScreenhotCapture.PNG?raw=true)
